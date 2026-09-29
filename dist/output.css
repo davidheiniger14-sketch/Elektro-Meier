@@ -2205,6 +2205,10 @@ input:where([type='file']):focus {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2269,14 +2273,6 @@ input:where([type='file']):focus {
 
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
-  }
-
-  .lg\:block {
-    display: block;
-  }
-
-  .lg\:inline {
-    display: inline;
   }
 
   .lg\:flex {
@@ -2349,6 +2345,10 @@ input:where([type='file']):focus {
 }
 
 @media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
   .xl\:flex {
     display: flex;
   }

@@ -50,34 +50,35 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
 
+          <!-- Kontakt-Infos -->
           <div class="flex flex-col lg:flex-row lg:items-center gap-x-6 gap-y-2 w-full lg:w-auto text-neutral-300">
 
             <!-- Büro / Installation Info -->
             <div class="flex items-center justify-between lg:justify-start w-full lg:w-auto gap-2">
               <span
-                class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-brand-yellow text-brand-black uppercase tracking-wider">
+                class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-brand-yellow text-brand-black uppercase tracking-wider shrink-0">
                 <i class="w-3 h-3 mr-1 inline" data-lucide="wrench"></i> Installation &amp; Büro
               </span>
-              <!-- Auf dem Handy versteckt, auf dem Desktop normal sichtbar -->
-              <span class="hidden lg:inline">Mo–Fr 07:00–12:00 &amp; 13:00–17:00</span>
-              <a class="font-bold text-white hover:text-brand-yellow transition inline-flex items-center gap-1"
+              <!-- Text: Versteckt auf Handy, sichtbar ab iPad (md) -->
+              <span class="hidden md:block">Mo–Fr 07:00–12:00 &amp; 13:00–17:00</span>
+              <a class="font-bold text-white hover:text-brand-yellow transition inline-flex items-center gap-1 shrink-0"
                 href="tel:0523052200">
                 <i class="w-3 h-3 text-brand-yellow" data-lucide="phone"></i> 052 305 22 00
               </a>
             </div>
 
-            <!-- Trennstrich Desktop -->
-            <div class="hidden lg:block h-3.5 w-px bg-neutral-700"></div>
+            <!-- Trennstrich Desktop (Erst ab sehr grossen Bildschirmen) -->
+            <div class="hidden xl:block h-3.5 w-px bg-neutral-700"></div>
 
             <!-- Laden Info -->
             <div class="flex items-center justify-between lg:justify-start w-full lg:w-auto gap-2">
               <span
-                class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-neutral-800 text-neutral-200 border border-neutral-700">
+                class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-neutral-800 text-neutral-200 border border-neutral-700 shrink-0">
                 <i class="w-3 h-3 mr-1 inline" data-lucide="shopping-bag"></i> Fachgeschäft
               </span>
-              <!-- Auf dem Handy versteckt, auf dem Desktop normal sichtbar -->
-              <span class="hidden lg:inline">Mo–Fr 08:00–12:00 &amp; 13:30–18:30 | Sa 08:00–16:00</span>
-              <a class="font-bold text-white hover:text-brand-yellow transition inline-flex items-center gap-1"
+              <!-- Text: Versteckt auf Handy, sichtbar ab iPad (md) -->
+              <span class="hidden md:block">Mo–Fr 08:00–12:00 &amp; 13:30–18:30 | Sa 08:00–16:00</span>
+              <a class="font-bold text-white hover:text-brand-yellow transition inline-flex items-center gap-1 shrink-0"
                 href="tel:0523052205">
                 <i class="w-3 h-3 text-brand-yellow" data-lucide="phone"></i> 052 305 22 05
               </a>
@@ -86,7 +87,7 @@
           </div>
 
           <!-- Social Desktop -->
-          <div class="hidden lg:flex items-center space-x-4 text-neutral-300 text-[11px]">
+          <div class="hidden lg:flex items-center space-x-4 text-neutral-300 text-[11px] shrink-0">
             <div class="flex items-center gap-2.5">
               <a class="hover:text-brand-yellow transition" href="https://www.instagram.com/meierelektro/"
                 target="_blank" title="Instagram">
